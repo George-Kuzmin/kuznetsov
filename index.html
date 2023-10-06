@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Main-page</title>
+</head>
+<body>
+    <header class="header">
+            <div class="header__logo">
+                <img src="images/logo-header.svg" alt="логотип Всеволода Борисовича">
+            </div>
+            <nav class="nav">
+                <div class="nav__item">
+                    <a href="">Актёры</a>
+                </div>
+                <div class="nav__item">
+                    <a href="">Персонажи</a>
+                </div>
+                <div class="nav__item">
+                    <a href="">Видео</a>
+                </div>
+                <div class="nav__item">
+                    <a href="">Блог</a>
+                </div>
+            </nav>
+            
+    </header>
+    <section class="main-banner">
+        <section class="main-banner__info">
+            <div class="main-banner__text-container">
+                <h1 class="h1">Всеволод <br>
+                    <span class="bold">Кузнецов</span>
+                </h1>
+                <p class="text-desc">Легенда отечественной школы дубляжа. Его работы стали классикой, примеры его работ изучают в театральных институтах и всевозможных школах озвучки. Настоящий мастер, профессионал. Всеволод прославился не только озвучиванием самых знаменитых киноперсонажей и героев мультиков, но и эталонными работами в качестве режиссера дубляжа.</p>
+                <button class="main-banner__btn-order">Заказать озвучку</button>
+            </div>
+            <img src="images/portrait-photo.png" alt="">
+        </section>
+    </section>
+    <section class="actors-page">
+    </section>   
+    <section class="characters-page"></section>
+    <section class="ad-page"></section>
+    <section class="intresting-page">
+        <div class="order-voiceover">
+            <img src="/images/radio-order.png" width="216" height="357" alt="radio-img">
+            <div class="order-form">
+                <div class="order-form__title">
+                    <span class="order-form__h">Заказать озвучку</span>
+                    <p class="order-form__p">Я могу озвучить Ваш проект. Аудиоролики, видеореклама, презентации, фильмы, сериалы, анимацию. Для оценки мне нужен текст и краткое описание.</p>
+                </div>
+                <form action="">
+                    <div class="order-form__name-tel">
+                        <input type="text" name="name" placeholder="Имя" class="order-form__name-input">
+                        <input type="tel" name="phone-number" placeholder="Телефон" class="order-form__tel-input">
+                    </div>
+                    <input type="email" name="email-adress" placeholder="E-mail" class="order-form__email">
+                    <div class="order-form__captcha-submit">
+                        <img src="/images/captcha.png" alt="временная капча">
+                        <input type="submit" value="Заказать" class="btn-order">
+                    </div>
+                    <p class="order-form__disclaimer">Нажимая на кнопку, я соглашаюсь на <a href="#!">обработку персональных данных</a></p>
+                </form>
+            </div>
+        </div>
+
+        </div>
+        <!-- <form class="form__order">
+            <h2>Заказать озвучку</h1>
+            <h3>Я могу озвучить ваш проект, деньги на карту кидайте, главное</h3>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name">
+            <label for="mobile"></label> -->
+        </form>
+    </section>
+    <footer class="footer">
+        <div>
+            <span class="footer__name-logo">Всеволод <br>
+                <span class="bold-little">Кузнецов</span>
+            </span>
+            <span class="footer__name-logo-sub">Официальный сайт</span>
+            <span class="footer__name-rights">© 2023 Все права защищены.</span>
+        </div>
+        <div class="footer__meta-data">
+            <div class="footer__sections">
+                <span class="footer__title">Разделы</span>
+                <div class="footer__links">
+                    <a class="footer__link-style" href="">Актёры</a>
+                    <a class="footer__link-style" href="">Персонажи</a>
+                    <a class="footer__link-style" href="">Видео</a>
+                    <a class="footer__link-style" href="">Блог</a>
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <span class="footer__title">Контакты</span>
+                <div>
+                    <img src="/images/mail-logo.svg" alt="">
+                    <a class="footer__link-style" href="mailto:">info@vsevolodkuznetsov.ru</a>
+                </div>
+                <div>
+                    <img src="/images/telegram-logo.svg" alt="">
+                    <a class="footer__link-style">Recsquare Media</a>
+                </div>
+                <button class="footer__btn-actors">Все актёры</button>
+            </div>
+        </div>
+        <div class="footer__coop">
+            <span class="footer__title">Сотрудничество</span>
+            <div class="footer__logos">
+                <div class="footer__recsquare-logo">
+                    <img src="/images/rec-logo.svg" alt="rec">
+                    <img src="/images/square-logo.svg" alt="square">
+                </div>
+                <div class="footer__webtr-logo">
+                    <img src="/images/digital-logo.svg" alt="digital-studio">
+                    <img src="/images/webtr-logo.svg" alt="webtr">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
